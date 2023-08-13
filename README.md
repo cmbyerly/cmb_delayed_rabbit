@@ -8,15 +8,15 @@ This is so I can use MassTransit locally with all its bells and whistles.
 - You can push it if you have a docker account.
 
 # Adding to your docker compose if you just want to use mine.
-`  rabbitmq:`
-`    image: cmbyerly411/delay_rabbitmq`
-`    container_name: delay_rabbitmq`
-`    ports:`
-`      - 4369:4369`
-`      - 5671:5671`
-`      - 5672:5672`
-`      - 15672:15672`
-`    restart: always`
+`  rabbitmq:
+    image: cmbyerly411/delay_rabbitmq
+    container_name: delay_rabbitmq
+    ports:
+      - 4369:4369
+      - 5671:5671
+      - 5672:5672
+      - 15672:15672
+    restart: always`
 
 # Support
 I am just putting this out there in case someone else finds it useful.
